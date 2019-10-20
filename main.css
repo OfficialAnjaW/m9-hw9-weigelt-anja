@@ -1,7 +1,5 @@
 #accordion {
-  height: 500px;
-  background-color: gray;
-  width: 60%;
+  width: 95%;
   margin: auto;
   margin-top: 100px;
 }
@@ -10,4 +8,14 @@
   #accordion {
     width: 60%;
   }
+}
+
+.accordion-headers {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  margin: 10px auto;
+  color: white;
+  padding: 0 20px;
 }
