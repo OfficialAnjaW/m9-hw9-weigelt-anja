@@ -30,3 +30,8 @@
   overflow: hidden;
   background-color: #f0f0f0;
 }
+
+.accordion-open {
+  height: 100px;
+  padding: 5px 20px;
+}
