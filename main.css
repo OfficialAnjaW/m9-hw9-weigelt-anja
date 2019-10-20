@@ -26,7 +26,7 @@
 }
 
 .accordion-description {
-  height: 100px;
+  height: 0;
+  overflow: hidden;
   background-color: #f0f0f0;
-  padding: 5px 20px;
 }
