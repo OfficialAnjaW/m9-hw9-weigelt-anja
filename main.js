@@ -13,7 +13,7 @@ function expandAccordionDescription() {
   }
 
   //Make Hidden Description Appear
-  this.nextElementSibling.classList.add('accordion-open');
+  this.nextElementSibling.classList.toggle('accordion-open');
 
   //Switch from Plus Sign to Minus Sign when Toggled
   this.childNodes[3].innerHTML = '-';

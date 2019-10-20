@@ -29,9 +29,11 @@
   height: 0;
   overflow: hidden;
   background-color: #f0f0f0;
+  transition: height 0.5s;
 }
 
 .accordion-open {
   height: 100px;
   padding: 5px 20px;
+  transition: height 0.5s;
 }
