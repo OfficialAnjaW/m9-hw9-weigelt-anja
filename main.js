@@ -1,6 +1,6 @@
 // Variables
 var accordionHeaders = document.querySelectorAll('#accordion .accordion-headers');
-var accordionDescriptions = document.querySelectorAll ('#accordion .accordion-description');
+var accordionDescriptions = document.querySelectorAll('#accordion .accordion-description');
 
 // Accordion Dropdown Action
 function expandAccordionDescription() {
